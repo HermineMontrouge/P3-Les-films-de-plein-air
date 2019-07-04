@@ -1,0 +1,212 @@
+/* nav */
+
+nav ul li {
+  margin: 0 40px;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-family: "comic_zine_otregular", arial, serif;
+  font-size: 30px;
+}
+
+@media all and (min-width: 1058px) and (max-width: 1168px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 25px;
+  }
+}
+
+@media all and (min-width: 991px) and (max-width: 1058px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+}
+
+/* carrousel */
+
+.d-block {
+  opacity: 0.7;
+}
+
+/* texte sur la carrousel */
+
+h2 {
+  font-family: "comic_zine_otregular", Arial, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+  font-size: 100px;
+}
+
+@media all and (min-width: 150px) and (max-width: 700px) {
+
+  h2 {
+    font-size: 50px;
+  }
+}
+
+/* fleche et barre de séparration noire */
+
+
+.arrowbar {
+  background-color: black;
+}
+
+.arrowdown {
+  margin-left: 100px;
+  padding-top: 15px;
+  float: left;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.arrowdown:hover {
+  transform: translateY(-10px);
+}
+
+h1 {
+  font-family: "comic_zine_otregular", Arial, serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 40px;
+  margin-top: -17px;
+}
+
+
+h1 a {
+  display: inline;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #B60E0E;
+}
+
+@media all and (min-width: 1008px) and (max-width: 1315px) {
+
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media all and (min-width: 850px) and (max-width: 1008px) {
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 850px) {
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 860px) {
+  .arrowdown {
+    margin-left: 30px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 600px) {
+  .arrowdown {
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+}
+
+/* Conteneur présentation et actu */
+
+h3 {
+  text-align: center;
+  font-family: "open_sanslight", Arial, Serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: "open_sanslight", Arial, Serif;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* L'Association */
+
+#row-ancre {
+  display: flex;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.jenviala {
+  border-radius: 100px;
+  border: 1px black solid;
+  margin-bottom: 15px;
+}
+
+.jen {
+  text-align: center;
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+
+  .jenviala,
+  .news {
+    width: 120px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+/* Actualités */
+
+.row-actu {
+  border: 1px solid black;
+  background-color: #f2f2f2;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.news {
+  border-radius: 100px;
+  border: 1px black solid;
+  margin-bottom: 15px;
+}
+
+.imgnews {
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+  font-family: "comic_zine_otregular", arial, serif;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}

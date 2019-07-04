@@ -1,0 +1,86 @@
+/* nav */
+
+nav ul li {
+  margin: 0 40px;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-family: "comic_zine_otregular", arial, serif;
+  font-size: 30px;
+}
+
+@media all and (min-width: 1058px) and (max-width: 1168px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 25px;
+  }
+}
+
+@media all and (min-width: 991px) and (max-width: 1058px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+}
+
+
+/* vignettes */
+
+.card-title {
+  font-size: 25px;
+}
+
+.text-muted {
+  font-size: 10px;
+}
+
+.card-text {
+  color: #B60E0E;
+}
+
+.card {
+  padding: 40px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+}
+
+h1 {
+  font-family: "comic_zine_otregular", Arial, serif;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  font-family: arial, serif;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+@media all and (min-width: 320px) and (max-width: 789px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 320px) {
+  h1 {
+    font-size: 15px;
+  }
+}

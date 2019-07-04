@@ -1,0 +1,96 @@
+/* nav */
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-family: "comic_zine_otregular", arial, serif;
+    font-size: 30px;
+}
+
+@media all and (min-width: 1058px) and (max-width: 1168px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 991px) and (max-width: 1058px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+}
+
+/* formulaire */
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 700px;
+    margin: 50px;
+    font-family: "open_sanslight", Arial, Serif;
+}
+
+.btn-group-toggle {
+    margin-top: 30px;
+}
+
+.image {
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-top: 70px;
+}
+
+@media all and (min-width: 150px) and (max-width: 769px) {
+    .bulle {
+        display: none;
+    }
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+h1 {
+    font-family: "comic_zine_otregular", Arial, serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-family: arial, serif;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media all and (min-width: 320px) and (max-width: 789px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 150px) and (max-width: 320px) {
+    h1 {
+        font-size: 15px;
+    }
+}

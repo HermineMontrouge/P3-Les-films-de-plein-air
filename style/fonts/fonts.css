@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "comic_zine_otregular";
+  src: url("./comiczine/comic_zine_ot-webfont.eot");
+  src: url("./comiczine/comic_zine_ot-webfont.eot") format("embedded-opentype"),
+    url("./comiczine/comic_zine_ot-webfont.woff") format("woff2"),
+    url("./comiczine/comic_zine_ot-webfont.ttf") format("woff"),
+    url("./comiczine/comic_zine_ot-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('./opensanslight/OpenSans-Light-webfont.eot');
+  src: url('./opensanslight/OpenSans-Light-webfont.eot?#iefix'),
+    url('./opensanslight/OpenSans-Light-webfont.woff2') format("woff2"),
+    url('./opensanslight/OpenSans-Light-webfont.woff'),
+    url('./opensanslight/OpenSans-Light-webfont.ttf'),
+    url('./opensanslight/OpenSans-Light-webfont.svg#open_sanslight');
+  font-weight: normal;
+  font-style: normal;
+
+}
